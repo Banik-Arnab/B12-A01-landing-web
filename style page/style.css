@@ -1,106 +1,195 @@
-*{
-margin: 0;
-padding: 0
+* {
+  margin: 0;
+  padding: 0
 }
-.navbar-section{
-    text-align: center;
-    padding: 50px;
-    background-image: url("../Assets/Hero-bg.png");
-    width: 1440px;
-    height: 698px;
-    border-radius: 25px;
-}
-.head{
-    color: #4e47ff;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
-}
-.text-info{
-    font-size: 65px;
-}
-.banner-section{
-    text-align: center;
-    margin: 158px;
-   
-}
-.btn{
-   
-    background-color: #4E47FF;
-    color: #fff;
-    padding: 10px 30px;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
-    margin: 30px;
 
-    
+.navbar-section {
+  text-align: center;
+  padding: 50px;
+  background-image: url("../Assets/Hero-bg.png");
+  width: 1440px;
+  height: 698px;
+  border-radius: 25px;
 }
-.btn:hover{
-    background-color: brown;
+
+.head {
+  color: #4e47ff;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px;
 }
-.action-section{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-   margin: 130px 230px;
-    gap: 40px;
-    flex-wrap: wrap;
-    
+
+.text-info {
+  font-size: 65px;
 }
-.text-contant{
-    max-width: 580px;
-    
+
+.banner-section {
+  text-align: center;
+  margin: 158px;
+
 }
-.img-content{
-    width: 403px;
-    height: 328px;
-    border-radius: 48px;
-    
+
+.btn {
+
+  background-color: #4E47FF;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin: 30px;
+
+
 }
-.user-title{
-    font-size: 38px;
-    font-weight:500;
+
+.btn:hover {
+  background-color: brown;
 }
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 230px;
+  gap: 40px;
+  flex-wrap: wrap;
+
+}
+
+.text-contant {
+  max-width: 580px;
+
+}
+
+.img-content {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+
+}
+
+.user-title {
+  font-size: 38px;
+  font-weight: 500;
+}
+
 .productivity-section {
-      background-color: #9794f4; 
-      padding: 30px;
-      text-align: center;
-      margin:  130px  230px;
-      border-radius: 30px;
-   
-    }
+  background-color: #9794f4;
+  padding: 30px;
+  text-align: center;
+  margin: 130px 230px;
+  border-radius: 30px;
 
-    .productivity-section h2 {
-      font-size: 28px;
-      margin-bottom: 30px;
-      
-      
-    }
+}
 
-    .container {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
+.productivity-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
 
-    .box {
-      max-width: 180px;
-    }
 
-    .value {
-      font-size: 40px;
-      font-weight: bold;
-      color:#0d05fa;
-    }
+}
 
-    .subtitle {
-      font-size: 14px;
-      color:#000000;
-      margin-top: 8px;
-    }
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 180px;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0d05fa;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+  margin: 130px 230px;
+
+}
+
+.contact-title {
+  justify-content: center;
+
+  font-size: 65px;
+  font-weight: bold;
+
+}
+
+.contact-form {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+label {
+
+  font-size: 14px;
+  margin-bottom: 5px;
+
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #eef2ff;
+  padding: 30px;
+  text-align: center;
+
+}
+
+.footer-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 12px;
+}
+
+.footer-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+
+  color: #2b6cb0;
+}
