@@ -193,3 +193,88 @@ textarea {
 
   color: #2b6cb0;
 }
+.focus{
+  text-align: center;
+  
+}
+.big-image{
+  border-radius: 10px;
+  
+}
+.feedback-section {
+  background-color: #f5f7fc;
+  padding: 60px 30px;
+  text-align: center;
+  
+}
+
+.feedback-title {
+  font-size: 28px;
+  color: #2d2d2d;
+  margin-bottom: 40px;
+}
+
+.feedback-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 25px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.stars {
+  font-size: 18px;
+  color: #f5b301;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.studio-name {
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #888;
+}
